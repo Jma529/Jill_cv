@@ -1,0 +1,77 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+   
+
+}
+h1, h2, h3, span {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+.grid-uneven{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+   
+.introduction {
+    min-height: 600px;
+    color: #E6D5C1;  
+
+}
+
+.profile {
+    background-color: #5d61b1;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 50%;
+    padding-top: 10%;
+}
+
+.description {
+    /* background-color:  #E6D5C1; */
+    background-image: linear-gradient(#FFFDE6, #E6D5C1,#FFFDE6);
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.education {
+    background-color: #E6D5C1;
+}
+.col-12 h1 {
+    margin: 0;
+}
+.contact-details span {
+    font-size: 1.5em;
+}
+
+li {
+    list-style: none;
+}
+
+.col-12 {
+    text-align: center;
+    padding: 20px;
+}
+
+.details {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.experience {
+    background-color:#5d61b1;
+
+}
