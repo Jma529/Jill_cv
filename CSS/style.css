@@ -12,14 +12,15 @@ h1, h2, h3, span {
 h2 {
     font-size: 1.5em;
 }
-.grid-uneven{
+.grid{
     display: grid;
-    grid-template-columns: 40% 60%;
+   
 }
    
 .introduction {
     min-height: 600px;
     color: #E6D5C1;  
+    grid-template-columns: 40% 60%;
 
 }
 
@@ -74,4 +75,54 @@ li {
 .experience {
     background-color:#5d61b1;
 
+}
+.contact {
+    grid-template-columns: 60% 40%;
+    background-image: linear-gradient(#FFFDE6, #E6D5C1,#FFFDE6);
+    
+}
+
+.thumbnails {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.thumbnail {
+    margin: 30px;
+    min-height: 600px;
+}
+
+.thumbnail img {
+    width: 100%;
+    margin: 10px;
+    /* filter: grayscale(80%); */
+    opacity: .7;
+    transition: .4s linear;
+    position: relative;
+    
+}
+.dropdown-text {
+    display: none;
+    position: absolute;
+    text-align: left;
+    
+}
+.dropdown-text p {
+    
+    background-color: #E6D5C1;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.thumbnail img:hover {
+    opacity: 1;
+}
+.thumbnail:hover .dropdown-text {
+    display: block;
+    width: 362px;
+    margin: 0;
+    
+}
+
+.work {
+    background-color:#FEFEFE;
 }
