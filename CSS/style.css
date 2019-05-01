@@ -23,7 +23,8 @@ h2 {
   width: 50%;
 }
 .banner {
-  background-color: #468496;
+  /* background-color: #468496; */
+  background-image: url("images/backgroundlight.png");
   background-size: cover;
   background-position: center;
   height: 60vh;
@@ -46,7 +47,7 @@ h2 {
 .banner-content {
   z-index: 10;
   text-align: center;
-  color: white;
+  color: #928779;
   /* background-color: black;
   opacity: .6; */
 }
@@ -212,7 +213,7 @@ a {
   }
 }
 
-i.fas.fa-graduation-cap, i.fas.fa-briefcase {
+i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
   color: #468496;
   font-size: 4em;
 }
@@ -249,7 +250,7 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase {
   left: 0;
 }
 
-.timeline-item:nth-child(even) .timeline-content::after {
+/* .timeline-item:nth-child(even) .timeline-content::after {
   content: '';
   position: absolute;
   border-style: solid;
@@ -259,7 +260,7 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase {
   left: -15px;
   border-width: 10px 15px 10px 0;
   border-color: transparent #f5f5f5 transparent transparent;
-}
+} */
 
 .timeline-item::after {
   content: '';
@@ -379,7 +380,7 @@ blockquote {
   .timeline .timeline-item:nth-child(even) .timeline-content {
     float: none;
   }
-  .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+  /* .timeline .timeline-item:nth-child(odd) .timeline-content::after {
     content: '';
     position: absolute;
     border-style: solid;
@@ -389,7 +390,7 @@ blockquote {
     left: -15px;
     border-width: 10px 15px 10px 0;
     border-color: transparent #f5f5f5 transparent transparent;
-  }
+  } */
 }
 /*# sourceMappingURL=style.css.map */
 
@@ -404,5 +405,5 @@ i.left {
 }
 
 i.right {
-  margin-left: 60%;
+  margin-left: 25%;
 }
