@@ -1,10 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 auto;
   font-family: 'Lato', sans-serif;
   color: white;
-  width: 1200px;
+  
 }
 
 h1, h2, h3, span {
@@ -25,7 +29,8 @@ h2 {
 }
 .banner {
   /* background-color: #468496; */
-  background-image: url("images/backgroundlight.png");
+ /* background-image: url('data:image/svg+xml,%3Csvg width="100" height="20" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z" fill="%239C92AC" fill-opacity="0.4" fill-rule="evenodd"/%3E%3C/svg%3E'); */
+  background-image: url("images/bannerturquoise.png");
   background-size: cover;
   background-position: center;
   height: 60vh;
@@ -33,20 +38,20 @@ h2 {
   justify-content: flex-start;
   align-items: center;
   padding-left: 50px;
+  position: relative;
   /* border-bottom: 5px dashed white; */
 
   
 }
 
-.banner-content h1 {
-  font-size: 6em;
-  margin-bottom: .25em;
-}
-.banner-content h2 {
-  font-family: 'Archivo Narrow', sans-serif;
-  font-size: 2em;
 
+
+.banner-content h1 {
+  font-size: 7em;
+  margin-bottom: .25em;
+  font-family:'playlist-script';
 }
+
 /* Medium screens */
 @media only screen and (max-width: 882px){
   .banner {
@@ -68,7 +73,7 @@ h2 {
 .banner-content {
   z-index: 10;
   text-align: center;
-  color: #928779;
+  color: #3e5874;
   /* background-color: black;
   opacity: .6; */
 }
@@ -77,11 +82,18 @@ h2 {
   color: white;
   -ms-grid-columns: 40% 60%;
       grid-template-columns: 40% 60%;
-      border-bottom: dashed 4px white;
+      /* border-bottom: dashed 4px white; */
+      /* background-color: #3e5874; */
+      background-image: url("images/introbkgrnd.png");
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      position: relative;
 }
 
+
 .profile {
-  background-color: #468496;
+  
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,7 +107,7 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-    border-right: dashed 4px white;
+    
 }
 
 .profile-pic {
@@ -104,7 +116,7 @@ h2 {
 }
 
 .description {
- background-color: #928779;
+ 
   /* background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFDE6), color-stop(#E6D5C1), to(#FFFDE6));
   background-image: linear-gradient(#FFFDE6, #E6D5C1, #FFFDE6); */
   color: white;
@@ -123,8 +135,9 @@ h2 {
 
 .education {
   display: flex;
-  background-color: #928779;
+  background-color: #b1e4e2;
   justify-content: center;
+  color: #3e5874;
 }
 
 .black {
@@ -141,7 +154,9 @@ h2 {
 .contact-details span {
   font-size: 1.5em;
 }
-
+.contact {
+  color: #3e5874;
+}
 li {
   list-style: none;
 }
@@ -157,15 +172,12 @@ li {
 
 }
 
-.experience {
-  background-color: #7B8CDE;
-}
+
 
 .contact {
   -ms-grid-columns: 60% 40%;
       grid-template-columns: 60% 40%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFDE6), color-stop(#E6D5C1), to(#FFFDE6));
-  background-image: linear-gradient(#FFFDE6, #E6D5C1, #FFFDE6);
+  
 }
 
 .thumbnails {
@@ -235,19 +247,20 @@ a {
 }
 
 i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
-  color: #468496;
+  color: #b1e4e2;
   font-size: 4em;
   margin-top: 15px;
 }
 /* Timeline*/
 .timeline {
   position: relative;
+  background-color: #FEFEFE;
   
 }
 
 .timeline::before {
   content: '';
-  background: #928779;
+  background: #3e5874;
   width: 5px;
   height: 95%;
   position: absolute;
@@ -259,6 +272,7 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
 .timeline-item {
   width: 100%;
   margin-bottom: 70px;
+  overflow: hidden;
 }
 
 
@@ -293,13 +307,12 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
 
 .timeline-content {
   position: relative;
-  width: 45%;
-  padding: 10px 30px;
+  width: 45%; 
   border-radius: 4px;
-  color: #96465c;
+  color: #3e5874;
 }
 
-.timeline-content::after {
+/* .timeline-content::after {
   content: '';
   position: absolute;
   border-style: solid;
@@ -309,84 +322,34 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
   right: -15px;
   border-width: 10px 0 10px 15px;
   border-color: transparent transparent transparent #f5f5f5;
-}
+} */
 
-.timeline-img {
-  width: 30px;
+.timeline-item .timeline_img_icon .timeline-img:nth-child(odd){
+  /* width: 30px;
   height: 30px;
-  background: #468496;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
+  background: #b1e4e2;
+  border-radius: 50%; 
+   position: absolute;
+  left: 50%;  */
   margin-top: 25px;
   margin-left: -15px;
+    left: 52%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    content: '';
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    right: -15px;
+    border-width: 25px 0 25px 25px;
+    border-color: #fefefe #fefefe #fefefe #3e5874;
 }
 
-.timeline-card {
-  padding: 0 !important;
+.timeline-item .timeline_img_icon .timeline-img:nth-child(even) {
+  transform: rotate(180deg);
 }
 
-.timeline-card p {
-  padding: 0 20px;
-}
-
-.timeline-card a {
-  margin-left: 20px;
-}
-
-
-.timeline-item.boulder .timeline-img-header.boulder {
-  background-image:url("images/boulder.jpg");
-  background-size: cover;
-  background-position: center;
-
-}
-.timeline-item.sanclemente .timeline-img-header.sanclemente {
-  background-image:url("images/sanclemente.jpg");
-  background-size: cover;
-  background-position: center;
-}
-.timeline-item.sf .timeline-img-header.sf {
-  background-image:url("images/sf.jpg");
-  background-size: cover;
-  background-position: center;
-
-}
-.timeline-item.perth .timeline-img-header.perth {
-  background-image:url("images/perth.jpg");
-  background-size: cover;
-  background-position: center;
-
-}
-.timeline-img-header {
-  height: 200px;
-  position: relative;
-  margin-bottom: 20px;
-}
-
-.timeline-img-header h2 {
-  color: #E6D5C1;
-  position: absolute;
-  bottom: 5px;
-  left: 20px;
-}
-
-blockquote {
-  margin-top: 30px;
-  color: #E6D5C1;
-  border-left-color: #5d61b1;
-  padding: 0 20px;
-}
-
-.date {
-  display: inline-block;
-  color: #d7bc9d;
-  font-weight: bolder;
-  padding: 10px;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
 
 @media screen and (max-width: 768px) {
   .timeline::before {
@@ -430,3 +393,19 @@ i.left {
 i.right {
   margin-left: 25%;
 }
+
+.line::before {
+    content: "";
+    width: 40px;
+    height: 5px;
+    background-color: #468496;
+}
+
+i.fas.fa-bars {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 40px;
+  color: #3e5874;
+}
+
