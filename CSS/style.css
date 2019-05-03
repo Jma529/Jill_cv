@@ -507,15 +507,17 @@ ul.contact-details {
 }
 .box {
   background-color: #b1e4e2;
-  width: 300px;
+  /* width: 300px; */
   height: 25px;
   margin: 10px;
 
 }
 .large {
+  width: 330px;
   animation:  widthlarge 5s ease-in 2s infinite alternate;
 }
 .medium {
+  width: 
  animation:widthmedium 5s ease-in 2s infinite alternate;
 }
 .small {
