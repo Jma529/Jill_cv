@@ -10,6 +10,9 @@
         if ($('.timeline-content').hasClass('js--fadeInLeft')) {
             $('.timeline-content').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
         }
+        if ($('i').hasClass('left')) {
+          $('i').removeClass('left');
+        }
   
         sr.reveal('.js--fadeInRight', {
           origin: 'right',

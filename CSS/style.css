@@ -33,7 +33,7 @@ h2 {
   background-image: url("images/bannerturquoise.png");
   background-size: cover;
   background-position: center;
-  height: 60vh;
+  height: 100vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -46,11 +46,12 @@ h2 {
 
 
 
-.banner-content h1 {
+.banner-content h1{
   font-size: 7em;
   margin-bottom: .25em;
-  font-family:'playlist-script';
+  font-family: 'playlistscript';
 }
+
 
 /* Medium screens */
 @media only screen and (max-width: 882px){
@@ -87,7 +88,7 @@ h2 {
       background-image: url("images/introbkgrnd.png");
       background-size: cover;
       background-position: center;
-      height: 80vh;
+  
       position: relative;
 }
 
@@ -102,8 +103,7 @@ h2 {
           justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -133,6 +133,23 @@ h2 {
           justify-content: center;
 }
 
+.inspiration {
+  background-image: url("images/treesjill.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.5em;
+  font-family: 'playlistscript';
+  text-align: center;
+}
+.inspo-content h1 {
+font-family: 'playlistscript';
+text-align: center;
+padding-left: 10%;
+}
 .education {
   display: flex;
   background-color: #b1e4e2;
@@ -231,7 +248,7 @@ i.fas, i.far, i.fab {
 }
 
 a {
-  color: white;
+  color: #3e5874;
 }
 
 @media screen and (max-width: 780px) {
@@ -254,7 +271,10 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
 /* Timeline*/
 .timeline {
   position: relative;
-  background-color: #FEFEFE;
+  background-image: url("images/bannerturquoise.png");
+  background-position: center;
+  height: 95%;
+  padding-top: 20px;
   
 }
 
@@ -262,11 +282,13 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
   content: '';
   background: #3e5874;
   width: 5px;
-  height: 95%;
+  height: 92%;
   position: absolute;
   left: 50%;
+  top: 5%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  z-index: 4;
 }
 
 .timeline-item {
@@ -310,6 +332,7 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
   width: 45%; 
   border-radius: 4px;
   color: #3e5874;
+  padding: 0 20px;
 }
 
 /* .timeline-content::after {
@@ -324,19 +347,17 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
   border-color: transparent transparent transparent #f5f5f5;
 } */
 
-.timeline-item .timeline_img_icon .timeline-img:nth-child(odd){
-  /* width: 30px;
+.timeline-item .timeline_img_icon .timeline-img {
+  width: 30px;
   height: 30px;
   background: #b1e4e2;
-  border-radius: 50%; 
+  /* border-radius: 50%;  */
    position: absolute;
-  left: 50%;  */
+  left: 50%; 
   margin-top: 25px;
-  margin-left: -15px;
-    left: 52%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    content: '';
+  margin-left: -9px;
+  z-index: 6;
+    /* content: '';
     position: absolute;
     border-style: solid;
     width: 0;
@@ -344,13 +365,8 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
     right: -15px;
     border-width: 25px 0 25px 25px;
     border-color: #fefefe #fefefe #fefefe #3e5874;
+} */
 }
-
-.timeline-item .timeline_img_icon .timeline-img:nth-child(even) {
-  transform: rotate(180deg);
-}
-
-
 @media screen and (max-width: 768px) {
   .timeline::before {
     left: 50px;
@@ -365,6 +381,15 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
   }
   .timeline .timeline-item:nth-child(even) .timeline-content {
     float: none;
+  }
+  .timeline-item .timeline_img_icon .timeline-img {
+    display: none;
+  }
+  .timeline_img_icon {
+    justify-content: start;
+  }
+  .timeline::before {
+    display: none;
   }
   /* .timeline .timeline-item:nth-child(odd) .timeline-content::after {
     content: '';
@@ -409,3 +434,43 @@ i.fas.fa-bars {
   color: #3e5874;
 }
 
+ .container-inspo {
+  width: 75%;
+  margin: 0 auto;
+  align-items: center;
+  flex-grow: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.my-story {
+  font-family: 'Julius Sans One';
+}
+
+.contact.grid.banner {
+  height: 300px;
+}
+
+.container-timeline {
+  position: relative;
+  width: 75%;
+  left: 12%;
+  background-color: #fefefe;
+  border: 3px solid #3e5874;
+
+}
+
+.timeline h1 {
+  font-size: 3em;
+  font-family: 'playlistscript';
+  text-align: center;
+  margin: 0;
+}
+@font-face {
+  font-family: 'playlistscript';
+  src: url('../CSS/fonts/playlist_script-webfont.woff2') format('woff2'),
+       url('../CSS/fonts/playlist_script-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
