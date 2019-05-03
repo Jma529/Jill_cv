@@ -6,17 +6,18 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0 auto;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Julius Sans One';
   color: white;
   
 }
 
-h1, h2, h3, span {
-  font-family: 'Julius Sans One', sans-serif;
+h1 {
+  font-family: 'playlistscript';
 }
 
 h2 {
   font-size: 1.5em;
+  font-family: 'Julius Sans One'
 }
 
 .grid {
@@ -465,7 +466,20 @@ i.fas.fa-bars {
   font-family: 'playlistscript';
   text-align: center;
   margin: 0;
+  color: #3e5874;
 }
+
+ul.contact-details {
+  padding: 0;
+  
+}
+
+.get-in-touch p {
+  font-size: 1.25em;
+}
+
+
+
 @font-face {
   font-family: 'playlistscript';
   src: url('../CSS/fonts/playlist_script-webfont.woff2') format('woff2'),
