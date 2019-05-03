@@ -517,10 +517,11 @@ ul.contact-details {
   animation:  widthlarge 5s ease-in 2s infinite alternate;
 }
 .medium {
-  width: 
+  width: 300px;
  animation:widthmedium 5s ease-in 2s infinite alternate;
 }
 .small {
+  width: 250px;
   animation: widthsmall 5s ease-in 2s infinite alternate;
 }
 
