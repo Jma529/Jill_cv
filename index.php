@@ -21,7 +21,7 @@
 
 <body>
   <div class="wrapper">
-    <div class="banner">
+    <div class="main banner">
       <div class="banner-content">
         <h1>Jill Augustus</h1>
         <h2>Inspiring Wellness | Aspiring Developer</h2>
@@ -37,7 +37,9 @@
         <div class="my-story col-6">
           <h2>My Story</h2>
           <!-- <p>I have recently made a career change to website development from fitness. While they seem in completely different realms, they actually complement each other to complete the perfect package. With coding our minds get the workout, with fitness our bodies do...making the two a great pair.</p> -->
-          <p>I recently have made a career change to website development from the fitness world. I am so excited to help people make beautiful and function websites. With coding our minds get the workout, with fitness our bodies do...making the two very complementary.</p>
+          <p>I recently have made a career change to website development from the fitness world. I am so excited to help
+            people make beautiful and function websites. With coding our minds get the workout, with fitness our bodies
+            do...making the two very complementary.</p>
         </div>
         <div class="inspo-content col-6 js--fadeInRight">
           <h1>Balance is not something you find,<br> it's something you create</h1>
@@ -131,7 +133,7 @@
             <div class="timeline-img">
             </div>
             <i class="fas fa-briefcase left"></i>
-            <span class="line"></span>
+            <!-- <span class="line"></span> -->
           </div>
           <div class="timeline-content js--fadeInRight">
             <h2>Customer Success Manager</h2>
@@ -177,8 +179,8 @@
       </div>
 
     </section>
-   
-      
+
+
 
   </div>
 
@@ -215,6 +217,44 @@
                 </li>
             </ul>
         </div> -->
+  <div class="skills banner">
+    <div class="col-6">
+    
+      <div class="boxes">
+          <h1>Skills</h1>
+        <div class="box large">
+          <span>HTML</span>
+        </div>
+        <div class="box large">
+          <span>CSS</span>
+        </div>
+        <div class="box large">
+          <span>Bootstrap</span>
+        </div>
+        <div class="box medium">
+          <span>Github</span>
+
+        </div>
+        <div class="box medium">
+          <span>Sass</span>
+        </div>
+        <div class="box medium">
+          <span>Jquery</span>
+        </div>
+        <div class="box small">
+          <span>JavaScript</span>
+        </div>
+        <div class="box small">
+          <span>PHP</span>
+        </div>
+        <div class="line">
+          <span>End of the day</span>
+          <hr style="height:2px; color:white; width:300px; margin-left:10px;">
+          <span>Start of the day</span>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="work col-12">
     <h1>Projects</h1>
     <div class="thumbnails grid">
@@ -279,7 +319,7 @@
 
   </div>
 
-</div>
+  </div>
 
 
 
@@ -288,6 +328,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+
   <script src="main.js"></script>
 </body>
 
