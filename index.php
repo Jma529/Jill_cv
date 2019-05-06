@@ -217,7 +217,7 @@
                 </li>
             </ul>
         </div> -->
-  <div class="skills banner">
+  <div class="skills grid banner">
     <div class="col-6">
     
       <div class="boxes">
@@ -248,15 +248,51 @@
           <span>PHP</span>
         </div>
         <div class="line">
-          <span>End of the day</span>
+          <span>Without Coffee</span>
           <hr style="height:2px; color:white; width:300px; margin-left:10px;">
-          <span>Start of the day</span>
+          <span>With Coffee</span>
         </div>
       </div>
     </div>
+    <div class="col-6">
+        <div class="boxes">
+            <h1>Hobbies</h1>
+          <div class="box large">
+            <span>Yoga</span>
+          </div>
+          <div class="box large">
+            <span>Surfing</span>
+          </div>
+          <div class="box large">
+            <span>Running</span>
+          </div>
+          <div class="box medium">
+            <span>Camping</span>
+  
+          </div>
+          <div class="box medium">
+            <span>Puzzles</span>
+          </div>
+          <div class="box medium">
+            <span>Traveling</span>
+          </div>
+          <div class="box small">
+            <span>Karaoke</span>
+          </div>
+          <div class="box small">
+            <span></span>
+          </div>
+          <div class="line">
+            <span></span>
+            <hr style="height:2px; color:white; width:300px; margin-left:10px;">
+            <span></span>
+          </div>
+        </div>
+      </div>
   </div>
   <div class="work col-12">
     <h1>Projects</h1>
+    <h2>Completed</h2>
     <div class="thumbnails grid">
       <div class="col-4 thumbnail">
         <img src="CSS/images/bentonitebeauty.png">
@@ -281,6 +317,11 @@
       </div>
 
     </div>
+    <div class ="in-progress">
+      <h2>In Progress</h2>
+
+    </div>
+   
   </div>
 
   <div class="contact grid banner">
