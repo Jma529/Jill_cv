@@ -294,27 +294,34 @@
     <h1>Projects</h1>
     <h2>Completed</h2>
     <div class="thumbnails grid">
-      <div class="col-4 thumbnail">
+      <div class="col-6 thumbnail">
         <img src="CSS/images/bentonitebeauty.png">
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
         </div>
       </div>
-      <div class="col-4 thumbnail">
+      <div class="col-6 thumbnail">
         <img src="CSS/images/shortstay.png">
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
         </div>
       </div>
-      <div class="col-4 thumbnail">
+      <div class="col-6 thumbnail">
         <img src="CSS/images/wishuponalash.png">
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
         </div>
       </div>
+      <div class="col-6 thumbnail">
+          <img src="CSS/images/wishuponalash.png">
+          <div class="dropdown-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+              fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
+          </div>
+        </div>
 
     </div>
     <div class ="in-progress">
