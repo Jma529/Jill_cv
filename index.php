@@ -70,11 +70,13 @@
             <i class="fas fa-graduation-cap left"></i>
           </div>
 
-          <div class="timeline-content js--fadeInRight">
-            <!-- <div class="timeline-img-header perth"> -->
-            <h2>Full Stack Web Development Certificate</h2>
-            <h3>Codemaster Institute</h3>
-            <h3>March-June 2019</h3>
+          <div class="timeline-content">
+            <div class="js--fadeInLeft">
+              <!-- <div class="timeline-img-header perth"> -->
+              <h2>Full Stack Web Development Certificate</h2>
+              <h3>Codemaster Institute</h3>
+              <h3>March-June 2019</h3>
+            </div>
             <p>A 12-week full-time intensive course Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
               rerum numquam,
               iusto nesciunt porro consectetur eaque molestias nisi quod laboriosam.</p>
@@ -87,10 +89,12 @@
             </div>
             <i class="fas fa-briefcase right"></i>
           </div>
-          <div class="timeline-content js--fadeInLeft">
-            <h2>Studio Manager & Teacher Trainer</h2>
-            <h3>LA Fit Studio</h3>
-            <h3>August 2015-October 2018</h3>
+          <div class="timeline-content">
+            <div class="js--fadeInRight">
+              <h2>Studio Manager & Teacher Trainer</h2>
+              <h3>LA Fit Studio</h3>
+              <h3>August 2015-October 2018</h3>
+            </div>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur rerum numquam,
               iusto nesciunt porro consectetur eaque molestias nisi quod laboriosam.</p>
           </div>
@@ -102,11 +106,13 @@
             </div>
             <i class="fas fa-graduation-cap left"></i>
           </div>
-          <div class="timeline-content timeline-card js--fadeInRight">
-            <!-- <div class="timeline-img-header sf"> -->
-            <h2>Build Websites from Scratch credential</h2>
-            <h3>Codecademy</h3>
-            <h3>July 2018</h3>
+          <div class="timeline-content">
+            <div class="js--fadeInLeft">
+              <!-- <div class="timeline-img-header sf"> -->
+              <h2>Build Websites from Scratch credential</h2>
+              <h3>Codecademy</h3>
+              <h3>July 2018</h3>
+            </div>
             <p>A 10-week online curriculum of web development fundamentals using HTML, CSS, JavaScript, and Github.</p>
           </div>
         </div>
@@ -117,11 +123,13 @@
             </div>
             <i class="fas fa-hands-helping right"></i>
           </div>
-          <div class="timeline-content timeline-card js--fadeInLeft">
-            <!-- <div class="timeline-img-header sanclemente"> -->
-            <h2>City Lead(Volunteer)</h2>
-            <h3>Sofar Sounds</h3>
-            <h3>Dec 2015-March 2016</h3>
+          <div class="timeline-content">
+            <div class="js--fadeInRight">
+              <!-- <div class="timeline-img-header sanclemente"> -->
+              <h2>City Lead(Volunteer)</h2>
+              <h3>Sofar Sounds</h3>
+              <h3>Dec 2015-March 2016</h3>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illo consectetur,
               perferendis neque voluptatibus corporis eveniet numquam expedita ducimus asperiores!</p>
           </div>
@@ -135,10 +143,12 @@
             <i class="fas fa-briefcase left"></i>
             <!-- <span class="line"></span> -->
           </div>
-          <div class="timeline-content js--fadeInRight">
-            <h2>Customer Success Manager</h2>
-            <h3>fitmob inc</h3>
-            <h3>August 2015-October 2018</h3>
+          <div class="timeline-content">
+            <div class="js--fadeInLeft">
+              <h2>Customer Success Manager</h2>
+              <h3>fitmob inc</h3>
+              <h3>August 2015-October 2018</h3>
+            </div>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur rerum numquam,
               iusto nesciunt porro consectetur eaque molestias nisi quod laboriosam.</p>
           </div>
@@ -151,11 +161,13 @@
             </div>
             <i class="fas fa-briefcase right"></i>
           </div>
-          <div class="timeline-content timeline-card js--fadeInLeft">
-            <!-- <div class="timeline-img-header sanclemente"> -->
-            <h2>Personal Trainer & Group Fitness Instructor</h2>
-            <h3>Gratify Fitness</h3>
-            <h3>August 2009-2015</h3>
+          <div class="timeline-content">
+            <div class="js--fadeInRight">
+              <!-- <div class="timeline-img-header sanclemente"> -->
+              <h2>Personal Trainer & Group Fitness Instructor</h2>
+              <h3>Gratify Fitness</h3>
+              <h3>August 2009-2015</h3>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illo consectetur,
               perferendis neque voluptatibus corporis eveniet numquam expedita ducimus asperiores!</p>
           </div>
@@ -168,10 +180,12 @@
             </div>
             <i class="fas fa-graduation-cap left"></i>
           </div>
-          <div class="timeline-content js--fadeInRight">
-            <h2>B.A. in Environmental Design</h2>
-            <h3>University of Colorado at Boulder</h3>
-            <h3>2005-2009</h3>
+          <div class="timeline-content">
+            <div class="js--fadeInLeft">
+              <h2>B.A. in Environmental Design</h2>
+              <h3>University of Colorado at Boulder</h3>
+              <h3>2005-2009</h3>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illo consectetur,
               perferendis neque voluptatibus corporis eveniet numquam expedita ducimus asperiores!</p>
           </div>
@@ -219,9 +233,9 @@
         </div> -->
   <div class="skills grid banner">
     <div class="col-6">
-    
+
       <div class="boxes">
-          <h1>Skills</h1>
+        <h1>Skills</h1>
         <div class="box large">
           <span>HTML</span>
         </div>
@@ -255,40 +269,40 @@
       </div>
     </div>
     <div class="col-6">
-        <div class="boxes">
-            <h1>Hobbies</h1>
-          <div class="box large">
-            <span>Yoga</span>
-          </div>
-          <div class="box large">
-            <span>Surfing</span>
-          </div>
-          <div class="box large">
-            <span>Running</span>
-          </div>
-          <div class="box medium">
-            <span>Camping</span>
-  
-          </div>
-          <div class="box medium">
-            <span>Puzzles</span>
-          </div>
-          <div class="box medium">
-            <span>Traveling</span>
-          </div>
-          <div class="box small">
-            <span>Karaoke</span>
-          </div>
-          <div class="box small">
-            <span></span>
-          </div>
-          <div class="line">
-            <span></span>
-            <hr style="height:2px; color:white; width:300px; margin-left:10px;">
-            <span></span>
-          </div>
+      <div class="boxes">
+        <h1>Hobbies</h1>
+        <div class="box large">
+          <span>Yoga</span>
+        </div>
+        <div class="box large">
+          <span>Surfing</span>
+        </div>
+        <div class="box large">
+          <span>Running</span>
+        </div>
+        <div class="box medium">
+          <span>Camping</span>
+
+        </div>
+        <div class="box medium">
+          <span>Puzzles</span>
+        </div>
+        <div class="box medium">
+          <span>Traveling</span>
+        </div>
+        <div class="box small">
+          <span>Karaoke</span>
+        </div>
+        <div class="box small">
+          <span></span>
+        </div>
+        <div class="line">
+          <span></span>
+          <hr style="height:2px; color:white; width:300px; margin-left:10px;">
+          <span></span>
         </div>
       </div>
+    </div>
   </div>
   <div class="work col-12">
     <h1>Projects</h1>
@@ -316,19 +330,19 @@
         </div>
       </div>
       <div class="col-6 thumbnail">
-          <img src="CSS/images/wishuponalash.png">
-          <div class="dropdown-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-              fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
-          </div>
+        <img src="CSS/images/wishuponalash.png">
+        <div class="dropdown-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+            fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
         </div>
+      </div>
 
     </div>
-    <div class ="in-progress">
+    <div class="in-progress">
       <h2>In Progress</h2>
 
     </div>
-   
+
   </div>
 
   <div class="contact grid banner">

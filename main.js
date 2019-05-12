@@ -41,16 +41,16 @@
     
     sr.reveal('.js--fadeInLeft', {
           origin: 'left',
-          distance: '300px',
-            easing: 'ease-in-out',
-          duration: 800,
+          distance: '10px',
+          easing: 'linear',
+          duration: 400,
         });
   
         sr.reveal('.js--fadeInRight', {
           origin: 'right',
-          distance: '300px',
+          distance: '100px',
           easing: 'ease-in-out',
-          duration: 800,
+          duration: 400,
         });
   
     });
