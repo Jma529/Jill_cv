@@ -330,17 +330,34 @@
     </div>
     <div class="in-progress">
       <h2>In Progress</h2>
+    <div class="thumbnails grid">
+        <div class="col-6 thumbnail">
+            <img src="CSS/images/shortstay.png">
+            <div class="dropdown-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
+            </div>
+          </div>
+          <div class="col-6 thumbnail">
+              <img src="CSS/images/soulmarket.png">
+              <div class="dropdown-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                  fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
+              </div>
+            </div>
+
 
     </div>
 
   </div>
+</div>
 
   <div class="contact grid banner">
     <div class="profile col-6">
       <img class="profile-pic" src="CSS/images/Jillresume.jpeg">
     </div>
     <div class="get-in-touch col-6">
-      <h1>Get in Touch</h1>
+      <h1>Let's have a coffee</h1>
 
       <ul class="contact-details">
         <li>

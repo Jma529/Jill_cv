@@ -55,3 +55,11 @@
   
     });
 
+    $(document).ready(function(){
+      $('.thumbnail').mouseover(function () { 
+        $('.dropdown-text').toggle.css("display", "block")
+      });
+
+
+
+    });

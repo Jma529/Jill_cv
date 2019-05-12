@@ -219,6 +219,7 @@ li {
 .thumbnail {
 
   width: 100%;
+  display: flex;
 }
 
 .thumbnail img {
@@ -231,22 +232,23 @@ li {
   position: relative;
   padding: 0 20px;
   height: 300px;
+  opacity: 1;
 }
 
 .dropdown-text {
-  display: none;
+
   position: absolute;
   text-align: left;
+  background-color: black;
+  opacity: .6;
+  display: none;
+
 }
 
-.dropdown-text p {
-  background-color: #E6D5C1;
-  margin: 0;
-  padding: 0 10px;
-}
+
 
 .thumbnail img:hover {
-  opacity: 1;
+  opacity: .7;
 }
 
 /* .thumbnail:hover .dropdown-text {
@@ -555,7 +557,7 @@ ul.contact-details {
 width: 250px;
 }
 .animation .extra-large {
-  animation: widthextralarge 5s ease-in alternate;
+  animation: widthextralarge 10s ease-in-out;
 }
 .animation .large {
   animation:  widthlarge 5s ease-in 2s infinite alternate;
