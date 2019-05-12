@@ -20,6 +20,10 @@ h2 {
   font-family: 'Julius Sans One'
 }
 
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .grid {
   display: -ms-grid;
   display: grid;
@@ -47,6 +51,7 @@ h2 {
 
 .skills {
   background-image: url('images/introbkgrnd.png');
+  height: 125vh;
 
 }
 .banner-content h1{
@@ -151,6 +156,12 @@ h2 {
 .inspo-content h1 {
 text-align: center;
 padding-left: 10%;
+
+}
+
+.inspo-content p {
+  font-family: 'playlistscript';
+ 
 }
 .education {
   display: flex;
@@ -201,13 +212,13 @@ li {
 }
 
 .thumbnails {
-  -ms-grid-columns: 33.33% 33.33% 33.33%;
-      grid-template-columns: 33.33% 33.33% 33.33%;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
 }
 
 .thumbnail {
-  margin: 30px;
-  min-height: 600px;
+
+  width: 100%;
 }
 
 .thumbnail img {
@@ -218,6 +229,8 @@ li {
   -webkit-transition: .4s linear;
   transition: .4s linear; */
   position: relative;
+  padding: 0 20px;
+  height: 300px;
 }
 
 .dropdown-text {
@@ -297,7 +310,7 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
 
 .timeline-item {
   width: 100%;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   overflow: hidden;
 }
 
@@ -305,7 +318,8 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
 .timeline-item:nth-child(even) .timeline-content {
   float: right;
   /* padding: 40px 30px 10px 30px; */
-  margin-top: -5%;
+  margin-top: -7%;
+  text-align: left;
 }
 
 .timeline-item:nth-child(even) .timeline-content .date {
@@ -337,6 +351,9 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
   border-radius: 4px;
   color: #3e5874;
   padding: 0 20px;
+  margin-top: -7%;
+  margin-left: 20px;
+  text-align:right;
 }
 
 /* .timeline-content::after {
@@ -447,10 +464,16 @@ i.fas.fa-bars {
   overflow: hidden;
 }
 
-.my-story {
+.my-story h1{
   font-family: 'Julius Sans One';
 }
+.my-story p {
+  width:75%;
+  background-color: black;
+  opacity: .6;
+  margin: 0 auto;
 
+}
 .contact.grid.banner {
   height: 300px;
 }
@@ -464,13 +487,15 @@ i.fas.fa-bars {
 
 }
 
-.timeline h1 {
+.timeline h1, .work h1 {
   font-size: 3em;
   font-family: 'playlistscript';
   text-align: center;
   margin: 0;
   color: #3e5874;
 }
+
+
 
 ul.contact-details {
   padding: 0;
@@ -498,35 +523,52 @@ ul.contact-details {
 
 .skills h1 {
   font-size: 3em;
-
-    width: 50%;
 }
 .skills .col-6 {
   margin: 0 auto;
 }
 .boxes {
-  margin-left: 10%;
-  margin-top: 25%;
+  /* margin-left: 10%; */
+  /* margin-top: 25%; */
 }
 .box {
   background-color: #b1e4e2;
   /* width: 300px; */
   height: 25px;
   margin: 10px;
+ 
 
+}
+.extra-large {
+  width: 80vw;
+  margin-top: 40%;
+  overflow-x: hidden;
+ 
 }
 .large {
   width: 330px;
-  animation:  widthlarge 5s ease-in 2s infinite alternate;
 }
 .medium {
   width: 300px;
- animation:widthmedium 5s ease-in 2s infinite alternate;
 }
 .small {
-  width: 250px;
+width: 250px;
+}
+.animation .extra-large {
+  animation: widthextralarge 5s ease-in alternate;
+}
+.animation .large {
+  animation:  widthlarge 5s ease-in 2s infinite alternate;
+}
+.animation .medium {
+ 
+ animation:widthmedium 5s ease-in 2s infinite alternate;
+}
+.animation .small {
+ 
   animation: widthsmall 5s ease-in 2s infinite alternate;
 }
+
 
 .boxes .line {
   width: 330px;
@@ -549,7 +591,11 @@ ul.contact-details {
   from{width:200px;}
   to{width: 60px;}
 }
+@keyframes widthextralarge {
+  from{width: 0px;}
+  to{width: 80vw;}
 
+}
 .box span {
   color: #3e5874;
 }
@@ -561,3 +607,34 @@ ul.contact-details {
 .work h2 {
   text-align: left;
 }
+.hobbies ul {
+  padding: 0;
+}
+.hobbies ul li:nth-child(odd){
+  font-size: 1.5em;
+  
+}
+
+.hobbies ul li {
+  margin-bottom: 10px;
+
+}
+
+
+/* .extra-large {
+  width: 1000px;
+  position: relative;
+  background: #b1e4e2;
+}
+
+.extra-large:before {
+  content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #b1e4e2;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+} */

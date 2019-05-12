@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Lato" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Montserrat" rel="stylesheet">
+  
 
 
 
@@ -37,9 +37,7 @@
         <div class="my-story col-6">
           <h2>My Story</h2>
           <!-- <p>I have recently made a career change to website development from fitness. While they seem in completely different realms, they actually complement each other to complete the perfect package. With coding our minds get the workout, with fitness our bodies do...making the two a great pair.</p> -->
-          <p>I recently have made a career change to website development from the fitness world. I am so excited to help
-            people make beautiful and function websites. With coding our minds get the workout, with fitness our bodies
-            do...making the two very complementary.</p>
+          <p>I recently have made a leap to website development from the fitness world. I know and love people and hope to find a role that is client-facing. I love problem solving, </p>
         </div>
         <div class="inspo-content col-6 js--fadeInRight">
           <h1>Balance is not something you find,<br> it's something you create</h1>
@@ -234,7 +232,7 @@
   <div class="skills grid banner">
     <div class="col-6">
 
-      <div class="boxes">
+      <div class="boxes animation">
         <h1>Skills</h1>
         <div class="box large">
           <span>HTML</span>
@@ -267,42 +265,31 @@
           <span>With Coffee</span>
         </div>
       </div>
-    </div>
-    <div class="col-6">
-      <div class="boxes">
-        <h1>Hobbies</h1>
-        <div class="box large">
-          <span>Yoga</span>
+      <div class="boxes animation">
+        <div class="box extra-large">
+          <span>Capacity to Learn >>>>>>>>>></span>
         </div>
-        <div class="box large">
-          <span>Surfing</span>
-        </div>
-        <div class="box large">
-          <span>Running</span>
-        </div>
-        <div class="box medium">
-          <span>Camping</span>
-
-        </div>
-        <div class="box medium">
-          <span>Puzzles</span>
-        </div>
-        <div class="box medium">
-          <span>Traveling</span>
-        </div>
-        <div class="box small">
-          <span>Karaoke</span>
-        </div>
-        <div class="box small">
-          <span></span>
-        </div>
-        <div class="line">
-          <span></span>
-          <hr style="height:2px; color:white; width:300px; margin-left:10px;">
-          <span></span>
-        </div>
+        <!-- <div class="line">
+            <hr style="height:2px; color:white; width:300px; margin-left:10px;">
+            <span>Infinity</span>
+        </div> -->
       </div>
     </div>
+    <div class="col-6 hobbies">
+      <!-- <div class="boxes"> -->
+        <h1>Hobbies</h1>
+        <ul>
+          <li>Yoga</li>
+          <li>Running</li>
+          <li>Surfing</li>
+          <li>Camping</li>
+          <li>Concerts</li>
+          <li>Puzzles</li>
+          <li>Travelling</li>
+          <li>Dancing</li>
+        </ul>
+    </div>
+    <!-- </div> -->
   </div>
   <div class="work col-12">
     <h1>Projects</h1>
@@ -316,26 +303,29 @@
         </div>
       </div>
       <div class="col-6 thumbnail">
-        <img src="CSS/images/shortstay.png">
+        <img src="CSS/images/music-gypsy.png">
+        <div class="dropdown-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+            fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
+        </div>
+      </div>
+    </div>
+    <div class="thumbnails grid">
+      <div class="col-6 thumbnail">
+        <img src="CSS/images/eventure.png">
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
         </div>
       </div>
       <div class="col-6 thumbnail">
-        <img src="CSS/images/wishuponalash.png">
-        <div class="dropdown-text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-            fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
+          <img src="CSS/images/wishuponalash.png">
+          <div class="dropdown-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+              fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
+          </div>
         </div>
-      </div>
-      <div class="col-6 thumbnail">
-        <img src="CSS/images/wishuponalash.png">
-        <div class="dropdown-text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-            fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
-        </div>
-      </div>
+    
 
     </div>
     <div class="in-progress">
