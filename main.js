@@ -24,14 +24,14 @@
     } else {
         
         sr.reveal('.js--fadeInLeft', {
-          origin: 'right',
+          origin: 'left',
           distance: '300px',
             easing: 'ease-in-out',
           duration: 800,
         });
   
         sr.reveal('.js--fadeInRight', {
-          origin: 'left',
+          origin: 'right',
           distance: '300px',
           easing: 'ease-in-out',
           duration: 800,
@@ -40,20 +40,21 @@
     }
     
     sr.reveal('.js--fadeInLeft', {
-          origin: 'right',
-          distance: '10px',
-          easing: 'linear',
-          duration: 400,
-        });
-  
-        sr.reveal('.js--fadeInRight', {
           origin: 'left',
           distance: '10px',
           easing: 'linear',
           duration: 400,
         });
   
+        sr.reveal('.js--fadeInRight', {
+          origin: 'right',
+          distance: '10px',
+          easing: 'linear',
+          duration: 400,
+        });
+  
     });
+
 
     $(document).ready(function(){
       // $('.thumbnail-img').mouseover(function () { 
