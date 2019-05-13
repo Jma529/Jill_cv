@@ -325,8 +325,6 @@
               fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
           </div>
         </div>
-    
-
     </div>
     <div class="in-progress">
       <h2>In Progress</h2>

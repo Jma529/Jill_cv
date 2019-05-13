@@ -56,8 +56,11 @@
     });
 
     $(document).ready(function(){
-      $('.thumbnail').mouseover(function () { 
-        $('.dropdown-text').toggle.css("display", "block")
+      $('.thumbnail').click(function () { 
+        $('.dropdown-text').css("display", "block")
+      });
+      $('.thumbnail').click(function () { 
+        $('.dropdown-text').css("display", "none")
       });
 
 
