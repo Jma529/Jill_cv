@@ -27,12 +27,30 @@
         <h2>Inspiring Wellness | Aspiring Developer</h2>
         <h2>Since 2010 | Since 2018</h2>
       </div>
-      <nav>
-        <i class="fas fa-bars">
+      <nav class="nav">
+        <i class="fas fa-bars" id="show">
         </i>
+        <div class="hover-nav" style="display:none;">
+          <ul>
+            <li><a href="#my-story">About</a>
+            </li>
+            <li><a href="#experience">
+              Education & Experience</a>
+            </li>
+            <li><a href="#hobbies">
+              Skills & Hobbies</a>
+            </li>
+            <li><a href="#projects">
+              Projects</a>
+            </li>
+            <li><a href="#contactme">
+              Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
-    <div class="inspiration">
+    <div class="inspiration" id="my-story">
       <div class="container-inspo">
         <div class="my-story col-6">
           <h2>My Story</h2>
@@ -44,23 +62,13 @@
           <p>- Jana Kingsford</p>
         </div>
       </div>
-    </div>
+    </div></a>
 
 
     <!--Timeline inspired by A PEN BY Sava Lazic and scroll reveal -->
-    <section class="timeline">
+    <section class="timeline" id="experience">
       <h1>Education & Experience</h1>
       <div class="container-timeline">
-
-        <div class="timeline-item">
-
-
-          <!-- <div class="timeline-content js--fadeInLeft"> -->
-          <!-- <h2>Studio Manager</h2>
-            <div class="date">September 2015-October 2018</div>
-            <p>LA Fit Studio</p>
-            <p></p> -->
-        </div>
         <div class="timeline-item">
           <div class="timeline_img_icon">
             <div class="timeline-img">
@@ -229,7 +237,7 @@
                 </li>
             </ul>
         </div> -->
-  <div class="skills grid banner">
+  <div class="skills grid banner" id="hobbies">
     <div class="col-6">
 
       <div class="boxes animation">
@@ -293,7 +301,7 @@
     </div>
     <!-- </div> -->
   </div>
-  <div class="work col-12">
+  <div class="work col-12" id="projects">
     <h1>Projects</h1>
     <h2>Completed</h2>
     <div class="thumbnails grid">
@@ -352,7 +360,7 @@
   </div>
 </div>
 
-  <div class="contact grid banner">
+  <div class="contact grid banner" id="contactme">
     <div class="profile col-6">
       <img class="profile-pic" src="CSS/images/Jillresume.jpeg">
     </div>
