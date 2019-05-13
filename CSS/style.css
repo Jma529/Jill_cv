@@ -310,14 +310,14 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
 }
 
 
-.timeline-item:nth-child(even) .timeline-content {
+.timeline-item:nth-child(odd) .timeline-content {
   float: right;
   /* padding: 40px 30px 10px 30px; */
   margin-top: -7%;
   text-align: left;
 }
 
-.timeline-item:nth-child(even) .timeline-content .date {
+.timeline-item:nth-child(odd) .timeline-content .date {
   right: auto;
   left: 0;
 }
@@ -643,7 +643,7 @@ text-align: left;
 
 /* Medium screens */
 @media only screen and (max-width: 882px){
-  .banner {
+  .main.banner {
     justify-content: center;
     margin: 0;
     padding: 0;
@@ -682,5 +682,42 @@ text-align: left;
   }
   .inspiration {
     font-size: 1em;
+  }
+  .skills {
+  background-color: #3e5874;
+  background-image: none;
+  display: block;
+  }
+  .skills h1 {
+    margin: 0;
+  }
+  .extra-large {
+    margin-top: 10%;
+  }
+  .hobbies ul li {
+    margin: 0;
+  }
+  .contact.grid.banner {
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+  }
+.profile-pic {
+  width: 100%;
+ padding: 20px;
+}
+}
+@media only screen and (max-width: 1140px) {
+  .thumbnails {
+      grid-template-columns: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .thumbnail-img {
+    width: 100%;
+   
+
   }
 }

@@ -203,40 +203,7 @@
 
 
   </div>
-
-  <!-- <div class="experience col-12">
-            <h1>Experience</h1>
-            <ul class="details">
-                <li>
-                    <P>Date range</P>
-                    <p>Company</p>
-                    <p>Position</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Dolore quia vitae incidunt sequi deserunt sint, labore vel voluptatibus fuga illum.</p>
-                </li>
-                <li>
-                    <P>Date range</P>
-                    <p>Company</p>
-                    <p>Position</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Dolore quia vitae incidunt sequi deserunt sint, labore vel voluptatibus fuga illum.</p>
-                </li>
-                <li>
-                    <P>Date range</P>
-                    <p>Company</p>
-                    <p>Position</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Dolore quia vitae incidunt sequi deserunt sint, labore vel voluptatibus fuga illum.</p>
-                </li>
-                <li>
-                    <P>Date range</P>
-                    <p>Company</p>
-                    <p>Position</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Dolore quia vitae incidunt sequi deserunt sint, labore vel voluptatibus fuga illum.</p>
-                </li>
-            </ul>
-        </div> -->
+<!--Skills & Hobbies-->
   <div class="skills grid banner" id="hobbies">
     <div class="col-6">
 
