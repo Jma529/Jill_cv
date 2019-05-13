@@ -37,7 +37,7 @@
         <div class="my-story col-6">
           <h2>My Story</h2>
           <!-- <p>I have recently made a career change to website development from fitness. While they seem in completely different realms, they actually complement each other to complete the perfect package. With coding our minds get the workout, with fitness our bodies do...making the two a great pair.</p> -->
-          <p>I recently have made a leap to website development from the fitness world. I know and love people and hope to find a role that is client-facing. I love problem solving, </p>
+          <p>I recently have made the leap into website development from the fitness world. I love problem solving, working with people, and continuous learning. I am excited to grow in the tech industry.</p>
         </div>
         <div class="inspo-content col-6 js--fadeInRight">
           <h1>Balance is not something you find,<br> it's something you create</h1>
@@ -266,9 +266,11 @@
         </div>
       </div>
       <div class="boxes animation">
-        <div class="box extra-large">
+        <div class="box extra-large arrow-right">
           <span>Capacity to Learn >>>>>>>>>></span>
         </div>
+       
+        
         <!-- <div class="line">
             <hr style="height:2px; color:white; width:300px; margin-left:10px;">
             <span>Infinity</span>
@@ -296,14 +298,14 @@
     <h2>Completed</h2>
     <div class="thumbnails grid">
       <div class="col-6 thumbnail">
-        <img src="CSS/images/bentonitebeauty.png">
+        <img class="thumbnail-img" src="CSS/images/bentonitebeauty.png">
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
         </div>
       </div>
       <div class="col-6 thumbnail">
-        <img src="CSS/images/music-gypsy.png">
+        <img class="thumbnail-img" src="CSS/images/music-gypsy.png">
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
@@ -312,14 +314,14 @@
     </div>
     <div class="thumbnails grid">
       <div class="col-6 thumbnail">
-        <img src="CSS/images/eventure.png">
+        <img class="thumbnail-img" src="CSS/images/eventure.png">
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
         </div>
       </div>
       <div class="col-6 thumbnail">
-          <img src="CSS/images/wishuponalash.png">
+          <img class="thumbnail-img" src="CSS/images/wishuponalash.png">
           <div class="dropdown-text">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
               fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
@@ -330,14 +332,14 @@
       <h2>In Progress</h2>
     <div class="thumbnails grid">
         <div class="col-6 thumbnail">
-            <img src="CSS/images/shortstay.png">
+            <img class="thumbnail-img" src="CSS/images/shortstay.png">
             <div class="dropdown-text">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
                 fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
             </div>
           </div>
           <div class="col-6 thumbnail">
-              <img src="CSS/images/soulmarket.png">
+              <img class="thumbnail-img" src="CSS/images/soulmarket.png">
               <div class="dropdown-text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
                   fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
