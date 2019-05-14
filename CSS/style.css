@@ -7,7 +7,7 @@ body {
           box-sizing: border-box;
   margin: 0 auto;
   font-family: 'Montserrat';
-  color: white;
+  color: #fefefe;
   
 }
 
@@ -75,7 +75,7 @@ ul li {
 }
 .introduction {
   min-height: 600px;
-  color: white;
+  color: #fefefe;
   -ms-grid-columns: 40% 60%;
       grid-template-columns: 40% 60%;
       /* border-bottom: dashed 4px white; */
@@ -114,7 +114,7 @@ ul li {
  
   /* background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFDE6), color-stop(#E6D5C1), to(#FFFDE6));
   background-image: linear-gradient(#FFFDE6, #E6D5C1, #FFFDE6); */
-  color: white;
+  color: #fefefe;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,7 +129,7 @@ ul li {
 }
 
 .inspiration {
-  background-image: url("images/treesjill.jpeg");
+  background-image: url("images/treesjill2.jpeg");
   background-size: cover;
   background-position: center;
   height: 100vh;

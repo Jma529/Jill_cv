@@ -324,14 +324,14 @@
     <h2>Completed</h2>
     <div class="thumbnails grid">
       <div class="col-6 thumbnail">
-        <img class="thumbnail-img" src="CSS/images/bentonitebeauty.png">
+        <img class="thumbnail-img" src="CSS/images/bentonitebeauty.jpeg">
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
         </div>
       </div>
       <div class="col-6 thumbnail">
-        <img class="thumbnail-img" src="CSS/images/music-gypsy.png">
+        <img class="thumbnail-img" src="CSS/images/eventure.jpeg">
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
@@ -340,14 +340,14 @@
     </div>
     <div class="thumbnails grid">
       <div class="col-6 thumbnail">
-        <img class="thumbnail-img" src="CSS/images/eventure.png">
+        <img class="thumbnail-img" src="CSS/images/music-gypsy.png">
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
         </div>
       </div>
       <div class="col-6 thumbnail">
-        <img class="thumbnail-img" src="CSS/images/wishuponalash.png">
+        <img class="thumbnail-img" src="CSS/images/wishuponalash.jpeg">
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
@@ -358,14 +358,14 @@
       <h2>In Progress</h2>
       <div class="thumbnails grid">
         <div class="col-6 thumbnail">
-          <img class="thumbnail-img" src="CSS/images/shortstay.png">
+          <img class="thumbnail-img" src="CSS/images/shortstay.jpeg">
           <div class="dropdown-text">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
               fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
           </div>
         </div>
         <div class="col-6 thumbnail">
-          <img class="thumbnail-img" src="CSS/images/soulmarket.png">
+          <img class="thumbnail-img" src="CSS/images/soulmarket.jpeg">
           <div class="dropdown-text">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
               fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
