@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Montserrat" rel="stylesheet">
-  
 
 
 
@@ -35,16 +34,16 @@
             <li><a href="#my-story">About</a>
             </li>
             <li><a href="#experience">
-              Education & Experience</a>
+                Education & Experience</a>
             </li>
             <li><a href="#hobbies">
-              Skills & Hobbies</a>
+                Skills & Hobbies</a>
             </li>
             <li><a href="#projects">
-              Projects</a>
+                Projects</a>
             </li>
             <li><a href="#contactme">
-              Contact</a>
+                Contact</a>
             </li>
           </ul>
         </div>
@@ -55,7 +54,8 @@
         <div class="my-story col-6">
           <h2>My Story</h2>
           <!-- <p>I have recently made a career change to website development from fitness. While they seem in completely different realms, they actually complement each other to complete the perfect package. With coding our minds get the workout, with fitness our bodies do...making the two a great pair.</p> -->
-          <p>I recently have made the leap into website development from the fitness world. I love problem solving, working with people, and continuous learning. I am excited to grow in the tech industry.</p>
+          <p>I recently have made the leap into website development from the fitness world. I love problem solving,
+            working with people, and continuous learning. I am excited to grow in the tech industry.</p>
         </div>
         <div class="inspo-content col-6 js--fadeInRight">
           <h1>Balance is not something you find,<br> it's something you create</h1>
@@ -80,12 +80,30 @@
             <div class="js--fadeInLeft">
               <!-- <div class="timeline-img-header perth"> -->
               <h2>Full Stack Web Development Certificate</h2>
-              <h3>Codemaster Institute</h3>
+              <h3>Codemaster Institute, Perth</h3>
               <h3>March-June 2019</h3>
             </div>
-            <p>A 12-week full-time intensive course Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-              rerum numquam,
-              iusto nesciunt porro consectetur eaque molestias nisi quod laboriosam.</p>
+            <p>A 12-week full-time intensive course covering front and backend topics including:
+              <ul class="bullet-list">
+                <li>HTML/CSS</li>
+                <li>Sass</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>Jquery</li>
+                <li>PHP</li>
+                <li>dotnet</li>
+                <li>Wordpress</li>
+                <li>Drupal</li>
+                <li>Github</li>
+                <li>Node</li>
+                <li>Team Project</li>
+              </ul>
+
+
+
+
+              
+            </p>
           </div>
         </div>
         <div class="timeline-item">
@@ -98,11 +116,20 @@
           <div class="timeline-content">
             <div class="js--fadeInRight">
               <h2>Studio Manager & Teacher Trainer</h2>
-              <h3>LA Fit Studio</h3>
+              <h3>LA Fit Studio, Perth</h3>
               <h3>August 2015-October 2018</h3>
             </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur rerum numquam,
-              iusto nesciunt porro consectetur eaque molestias nisi quod laboriosam.</p>
+            <p>
+              <ul class="bullet-list">
+                <li>Oversee two boutique fitness studios</li>
+                <li>Lead on the ground information and refresher sessions for instructors</li>
+                <li>Instruct the Lagree Method through group classes and private sessions</li>
+                <li>Ensure that clients receive a high level of customer service</li>
+                <li>Manage relationship with clientele and respond to feedbacks and complaints </li>
+                <li>Repair and maintainentace of all equipment</li>
+                <li>Control outstanding balances on all client’s accounts</li>
+              </ul>
+            </p>
           </div>
         </div>
 
@@ -116,10 +143,19 @@
             <div class="js--fadeInLeft">
               <!-- <div class="timeline-img-header sf"> -->
               <h2>Build Websites from Scratch credential</h2>
-              <h3>Codecademy</h3>
+              <h3>Codecademy, online</h3>
               <h3>July 2018</h3>
             </div>
-            <p>A 10-week online curriculum of web development fundamentals using HTML, CSS, JavaScript, and Github.</p>
+            <p>A 10-week online curriculum of web development fundamentals including:
+              <ul class="bullet-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Responsive Design</li>
+                <li>Flexbox</li>
+                <li>CSS Transitions</li>
+                <li>Github</li>
+              </ul>
+            </p>
           </div>
         </div>
 
@@ -133,11 +169,18 @@
             <div class="js--fadeInRight">
               <!-- <div class="timeline-img-header sanclemente"> -->
               <h2>City Lead(Volunteer)</h2>
-              <h3>Sofar Sounds</h3>
+              <h3>Sofar Sounds, Perth</h3>
               <h3>Dec 2015-March 2016</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illo consectetur,
-              perferendis neque voluptatibus corporis eveniet numquam expedita ducimus asperiores!</p>
+            <p>
+              <ul class="bullet-list">
+                <li>Organise monthly concerts to highlight local musicians.</li>
+                <li>Lead team of three to find artists, hosts, photographers, and sponsors.</li>
+                <li>Use a ticketing platform to allocate tickets. Our biggest concert was 120 people on someone's back
+                  patio!</li>
+              </ul>
+
+            </p>
           </div>
         </div>
 
@@ -152,11 +195,21 @@
           <div class="timeline-content">
             <div class="js--fadeInLeft">
               <h2>Customer Success Manager</h2>
-              <h3>fitmob inc</h3>
+              <h3>fitmob inc, San Francisco</h3>
               <h3>August 2015-October 2018</h3>
             </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur rerum numquam,
-              iusto nesciunt porro consectetur eaque molestias nisi quod laboriosam.</p>
+            <p>
+              <ul class="bullet-list">
+                <li>Demonstrate a proactive approach to solve customer related concerns involving payments and technical
+                  issues </li>
+                <li>Work closely with developers on UX (ie. Payments, scheduling, app and browser bugs)</li>
+                <li>Maintain a Zendesk pipeline of 75+ tickets while keeping response rate under 24 hours.</li>
+                <li>Test several ideas such as a concierge email service aimed to understand a fitmob member’s goals to
+                  create a suggested exercise routine</li>
+                <li>Remain energetic, excited and flexible about working in a high growth and fast-paced start-up</li>
+                <li>Assist with onboarding new customers, and resolve concerns over the phone, email, and live chat</li>
+              </ul>
+            </p>
           </div>
         </div>
 
@@ -171,11 +224,10 @@
             <div class="js--fadeInRight">
               <!-- <div class="timeline-img-header sanclemente"> -->
               <h2>Personal Trainer & Group Fitness Instructor</h2>
-              <h3>Gratify Fitness</h3>
+              <h3>Gratify Fitness, San Clemente, California</h3>
               <h3>August 2009-2015</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illo consectetur,
-              perferendis neque voluptatibus corporis eveniet numquam expedita ducimus asperiores!</p>
+            <p>Ran personal training business focused on helping others achieve goals, based solely on referrals.</p>
           </div>
         </div>
 
@@ -192,8 +244,7 @@
               <h3>University of Colorado at Boulder</h3>
               <h3>2005-2009</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem illo consectetur,
-              perferendis neque voluptatibus corporis eveniet numquam expedita ducimus asperiores!</p>
+            <p>Four-year degree in Environmental Design with an emphasis in design studies </p>
           </div>
         </div>
       </div>
@@ -203,7 +254,7 @@
 
 
   </div>
-<!--Skills & Hobbies-->
+  <!--Skills & Hobbies-->
   <div class="skills grid banner" id="hobbies">
     <div class="col-6">
 
@@ -254,17 +305,17 @@
     </div>
     <div class="col-6 hobbies">
       <!-- <div class="boxes"> -->
-        <h1>Hobbies</h1>
-        <ul>
-          <li>Yoga</li>
-          <li>Running</li>
-          <li>Surfing</li>
-          <li>Camping</li>
-          <li>Concerts</li>
-          <li>Puzzles</li>
-          <li>Travelling</li>
-          <li>Dancing</li>
-        </ul>
+      <h1>Hobbies</h1>
+      <ul>
+        <li>Yoga</li>
+        <li>Running</li>
+        <li>Surfing</li>
+        <li>Camping</li>
+        <li>Concerts</li>
+        <li>Puzzles</li>
+        <li>Travelling</li>
+        <li>Dancing</li>
+      </ul>
     </div>
     <!-- </div> -->
   </div>
@@ -296,36 +347,36 @@
         </div>
       </div>
       <div class="col-6 thumbnail">
-          <img class="thumbnail-img" src="CSS/images/wishuponalash.png">
+        <img class="thumbnail-img" src="CSS/images/wishuponalash.png">
+        <div class="dropdown-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+            fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
+        </div>
+      </div>
+    </div>
+    <div class="in-progress">
+      <h2>In Progress</h2>
+      <div class="thumbnails grid">
+        <div class="col-6 thumbnail">
+          <img class="thumbnail-img" src="CSS/images/shortstay.png">
           <div class="dropdown-text">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
               fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
           </div>
         </div>
-    </div>
-    <div class="in-progress">
-      <h2>In Progress</h2>
-    <div class="thumbnails grid">
         <div class="col-6 thumbnail">
-            <img class="thumbnail-img" src="CSS/images/shortstay.png">
-            <div class="dropdown-text">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-                fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
-            </div>
+          <img class="thumbnail-img" src="CSS/images/soulmarket.png">
+          <div class="dropdown-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+              fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
           </div>
-          <div class="col-6 thumbnail">
-              <img class="thumbnail-img" src="CSS/images/soulmarket.png">
-              <div class="dropdown-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-                  fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
-              </div>
-            </div>
+        </div>
 
+
+      </div>
 
     </div>
-
   </div>
-</div>
 
   <div class="contact grid banner" id="contactme">
     <div class="profile col-6">
@@ -369,10 +420,8 @@
 
 
 
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
 
   <script src="main.js"></script>
