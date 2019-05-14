@@ -478,7 +478,10 @@ i.fas.fa-bars {
   .timeline::before {
     display: none;
   }
-
+.timeline-item {
+  overflow:visible;
+  margin-top: 20px;
+}
 
 }
 /* Contact Section */

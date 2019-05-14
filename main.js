@@ -65,7 +65,7 @@
       // });
 /* Toggle Nav Menu */
       $('#show').click(function() {
-        $('.hover-nav').toggle()
+        $('.hover-nav').slideToggle("slow");
             });
  
     /* Change menu color on scroll */

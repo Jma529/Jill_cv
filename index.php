@@ -240,17 +240,17 @@
           <span>With Coffee</span>
         </div>
       </div>
-      <div class="boxes animation">
+      <!-- <div class="boxes animation">
         <div class="box extra-large arrow-right">
           <span>Capacity to Learn >>>>>>>>>></span>
         </div>
        
         
-        <!-- <div class="line">
+        <div class="line">
             <hr style="height:2px; color:white; width:300px; margin-left:10px;">
             <span>Infinity</span>
-        </div> -->
-      </div>
+        </div> 
+      </div> -->
     </div>
     <div class="col-6 hobbies">
       <!-- <div class="boxes"> -->
@@ -369,8 +369,10 @@
 
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
 
   <script src="main.js"></script>
