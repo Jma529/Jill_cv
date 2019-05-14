@@ -654,8 +654,12 @@ text-align: left;
   .hover-nav {
     left: 60%;
   }
-  .hover-nav ul li {
+  .hover-nav ul li  {
     margin-left:0;
+  
+  }
+  .hover-nav ul {
+    padding: 10px;
   }
 }
 @media only screen and (max-width: 726px){
