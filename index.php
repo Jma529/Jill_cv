@@ -51,13 +51,13 @@
     </div>
     <div class="inspiration" id="my-story">
       <div class="container-inspo">
-        <div class="my-story col-6">
+        <div class="my-story">
           <h2>My Story</h2>
           <!-- <p>I have recently made a career change to website development from fitness. While they seem in completely different realms, they actually complement each other to complete the perfect package. With coding our minds get the workout, with fitness our bodies do...making the two a great pair.</p> -->
           <p>I recently have made the leap into website development from the fitness world. I love problem solving,
             working with people, and continuous learning. I am excited to grow in the tech industry.</p>
         </div>
-        <div class="inspo-content col-6 js--fadeInRight">
+        <div class="inspo-content js--fadeInRight">
           <h1>Balance is not something you find,<br> it's something you create</h1>
           <p>- Jana Kingsford</p>
         </div>
@@ -256,7 +256,7 @@
   </div>
   <!--Skills & Hobbies-->
   <div class="skills grid banner" id="hobbies">
-    <div class="col-6">
+    <div class="skill-box">
 
       <div class="boxes animation">
         <h1>Skills</h1>
@@ -303,7 +303,7 @@
         </div> 
       </div> -->
     </div>
-    <div class="col-6 hobbies">
+    <div class="hobbies">
       <!-- <div class="boxes"> -->
       <h1>Hobbies</h1>
       <ul>
@@ -323,14 +323,14 @@
     <h1>Projects</h1>
     <h2>Completed</h2>
     <div class="thumbnails grid">
-      <div class="col-6 thumbnail">
+      <div class="thumbnail">
         <img class="thumbnail-img" src="CSS/images/bentonitebeauty.jpeg">
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
         </div>
       </div>
-      <div class="col-6 thumbnail">
+      <div class="thumbnail">
         <img class="thumbnail-img" src="CSS/images/eventure.jpeg">
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
@@ -339,14 +339,14 @@
       </div>
     </div>
     <div class="thumbnails grid">
-      <div class="col-6 thumbnail">
+      <div class="thumbnail">
         <img class="thumbnail-img" src="CSS/images/music-gypsy.png">
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
         </div>
       </div>
-      <div class="col-6 thumbnail">
+      <div class="thumbnail">
         <img class="thumbnail-img" src="CSS/images/wishuponalash.jpeg">
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
@@ -357,14 +357,14 @@
     <div class="in-progress">
       <h2>In Progress</h2>
       <div class="thumbnails grid">
-        <div class="col-6 thumbnail">
+        <div class="thumbnail">
           <img class="thumbnail-img" src="CSS/images/shortstay.jpeg">
           <div class="dropdown-text">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
               fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
           </div>
         </div>
-        <div class="col-6 thumbnail">
+        <div class="thumbnail">
           <img class="thumbnail-img" src="CSS/images/soulmarket.jpeg">
           <div class="dropdown-text">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
@@ -379,10 +379,10 @@
   </div>
 
   <div class="contact grid banner" id="contactme">
-    <div class="profile col-6">
+    <div class="profile">
       <img class="profile-pic" src="CSS/images/Jillresume.jpeg">
     </div>
-    <div class="get-in-touch col-6">
+    <div class="get-in-touch">
       <h1>Let's have a coffee</h1>
 
       <ul class="contact-details">
