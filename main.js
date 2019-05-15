@@ -57,12 +57,6 @@
 
 
     $(document).ready(function(){
-      // $('.thumbnail-img').mouseover(function () { 
-      //   $('.dropdown-text').css("display", "block");
-      // });
-      // $('.thumbnail').click(function () { 
-      //   $('.dropdown-text').css("display", "none");
-      // });
 /* Toggle Nav Menu */
       $('#show').click(function() {
         $('.hover-nav').slideToggle("slow");

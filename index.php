@@ -126,7 +126,7 @@
                 <li>Instruct the Lagree Method through group classes and private sessions</li>
                 <li>Ensure that clients receive a high level of customer service</li>
                 <li>Manage relationship with clientele and respond to feedbacks and complaints </li>
-                <li>Repair and maintainentace of all equipment</li>
+                <li>Repair and maintenance of all equipment</li>
                 <li>Control outstanding balances on all client’s accounts</li>
               </ul>
             </p>
@@ -324,14 +324,14 @@
     <h2>Completed</h2>
     <div class="thumbnails grid">
       <div class="thumbnail">
-        <img class="thumbnail-img" src="CSS/images/bentonitebeauty.jpeg">
+        <a href="https://www.bentonitebeauty.com.au/"><img class="thumbnail-img" src="CSS/images/bentonitebeauty.jpeg"></a>
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
         </div>
       </div>
       <div class="thumbnail">
-        <img class="thumbnail-img" src="CSS/images/eventure.jpeg">
+        <a href="https://github.com/CodemasterInstitute/Eventure/commits/Jill"><img class="thumbnail-img" src="CSS/images/eventure.jpeg"></a>
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
@@ -347,7 +347,7 @@
         </div>
       </div>
       <div class="thumbnail">
-        <img class="thumbnail-img" src="CSS/images/wishuponalash.jpeg">
+        <a href="https://wishuponalash.com/"><img class="thumbnail-img" src="CSS/images/wishuponalash.jpeg"></a>
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
@@ -404,6 +404,10 @@
           <a href="https://www.linkedin.com/in/jill-augustus-a930bb10/"><i class="fab fa-linkedin"></i></a>
           <span>Jill Augustus</span>
 
+        </li>
+        <li>
+          <a href="https://github.com/Jma529/"><i class="fab fa-github"></i></a>
+          <span>Github</span>
         </li>
       </ul>
       <br>
