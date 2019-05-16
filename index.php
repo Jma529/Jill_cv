@@ -20,12 +20,16 @@
 
 <body>
   <div class="wrapper">
+    <!--Main Banner-->
     <div class="main banner">
       <div class="banner-content">
         <h1>Jill Augustus</h1>
         <h2>Inspiring Wellness | Aspiring Developer</h2>
         <h2>Since 2010 | Since 2018</h2>
       </div>
+
+      <!--Nav Menu -->
+
       <nav class="nav">
         <i class="fas fa-bars" id="show">
         </i>
@@ -49,11 +53,13 @@
         </div>
       </nav>
     </div>
+
+    <!--About Me-->
+
     <div class="inspiration" id="my-story">
       <div class="container-inspo">
         <div class="my-story">
           <h2>My Story</h2>
-          <!-- <p>I have recently made a career change to website development from fitness. While they seem in completely different realms, they actually complement each other to complete the perfect package. With coding our minds get the workout, with fitness our bodies do...making the two a great pair.</p> -->
           <p>I recently have made the leap into website development from the fitness world. I love problem solving,
             working with people, and continuous learning. I am excited to grow in the tech industry.</p>
         </div>
@@ -62,10 +68,10 @@
           <p>- Jana Kingsford</p>
         </div>
       </div>
-    </div></a>
+    </div>
 
 
-    <!--Timeline inspired by A PEN BY Sava Lazic and scroll reveal -->
+    <!--Timeline(modified) inspired by A PEN BY Sava Lazic and scroll reveal -->
     <section class="timeline" id="experience">
       <h1>Education & Experience</h1>
       <div class="container-timeline">
@@ -78,7 +84,6 @@
 
           <div class="timeline-content">
             <div class="js--fadeInLeft">
-              <!-- <div class="timeline-img-header perth"> -->
               <h2>Full Stack Web Development Certificate</h2>
               <h3>Codemaster Institute, Perth</h3>
               <h3>March-June 2019</h3>
@@ -98,16 +103,10 @@
                 <li>Node</li>
                 <li>Team Project</li>
               </ul>
-
-
-
-
-              
             </p>
           </div>
         </div>
         <div class="timeline-item">
-
           <div class="timeline_img_icon">
             <div class="timeline-img">
             </div>
@@ -183,14 +182,11 @@
             </p>
           </div>
         </div>
-
-
         <div class="timeline-item">
           <div class="timeline_img_icon">
             <div class="timeline-img">
             </div>
             <i class="fas fa-briefcase left"></i>
-            <!-- <span class="line"></span> -->
           </div>
           <div class="timeline-content">
             <div class="js--fadeInLeft">
@@ -222,7 +218,6 @@
           </div>
           <div class="timeline-content">
             <div class="js--fadeInRight">
-              <!-- <div class="timeline-img-header sanclemente"> -->
               <h2>Personal Trainer & Group Fitness Instructor</h2>
               <h3>Gratify Fitness, San Clemente, California</h3>
               <h3>August 2009-2015</h3>
@@ -230,8 +225,6 @@
             <p>Ran personal training business focused on helping others achieve goals, based solely on referrals.</p>
           </div>
         </div>
-
-
         <div class="timeline-item">
           <div class="timeline_img_icon">
             <div class="timeline-img">
@@ -251,10 +244,8 @@
 
     </section>
 
-
-
-  </div>
   <!--Skills & Hobbies-->
+
   <div class="skills grid banner" id="hobbies">
     <div class="skill-box">
 
@@ -291,17 +282,11 @@
           <span>With Coffee</span>
         </div>
       </div>
-      <!-- <div class="boxes animation">
+      <!--<div class="boxes animation">
         <div class="box extra-large arrow-right">
           <span>Capacity to Learn >>>>>>>>>></span>
         </div>
-       
-        
-        <div class="line">
-            <hr style="height:2px; color:white; width:300px; margin-left:10px;">
-            <span>Infinity</span>
-        </div> 
-      </div> -->
+        </div> -->
     </div>
     <div class="hobbies">
       <!-- <div class="boxes"> -->
@@ -324,14 +309,16 @@
     <h2>Completed</h2>
     <div class="thumbnails grid">
       <div class="thumbnail">
-        <a href="https://www.bentonitebeauty.com.au/"><img class="thumbnail-img" src="CSS/images/bentonitebeauty.jpeg"></a>
+        <a href="https://www.bentonitebeauty.com.au/"><img class="thumbnail-img"
+            src="CSS/images/bentonitebeauty.jpeg"></a>
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
         </div>
       </div>
       <div class="thumbnail">
-        <a href="https://github.com/CodemasterInstitute/Eventure/commits/Jill"><img class="thumbnail-img" src="CSS/images/eventure.jpeg"></a>
+        <a href="https://github.com/CodemasterInstitute/Eventure/commits/Jill"><img class="thumbnail-img"
+            src="CSS/images/eventure.jpeg"></a>
         <div class="dropdown-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
             fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
@@ -419,6 +406,7 @@
   </div>
 
   </div>
+</div>
 
 
 

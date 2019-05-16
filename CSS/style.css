@@ -609,15 +609,12 @@ text-align: left;
 
 
 
-.skill-box {
-  margin: 0 25%;
-}
 
 .skills {
 background-color: #3e5874;
 display: block;
 text-align: center;
-height: 125vh;
+height: auto;
 }
 .skills h1 {
   margin: 0;
@@ -629,7 +626,9 @@ height: 125vh;
 .hobbies ul li {
   margin: 0;
 }
-
+.hobbies {
+ padding-bottom: 5%;
+}
  /* Get in Touch Section */
 .contact.grid.banner {
   height: 100vh;
@@ -638,7 +637,7 @@ height: 125vh;
  
 }
 .profile, .get-in-touch {
-  width: 50%;
+  width: 100%;
 }
 .profile-pic {
   width: 75%;
@@ -677,10 +676,12 @@ height: 125vh;
    grid-template-columns: 50% 50%;
   text-align: center;
   display: grid;
-    }
+  grid-template-rows: 25% 25% 25% 25%;
+   }
 
 .skill-box, .hobbies {
   margin: 0 auto;
+  grid-row-start: 2;
 }
 .hobbies ul li {
   margin: 10px;
@@ -718,6 +719,10 @@ height: 125vh;
 
   .skills {
     background-image: url('images/introbkgrnd.png');
+  }
+  .skill-box, .hobbies {
+    margin: 0 auto;
+    grid-row-start: 1;
   }
   
 }
