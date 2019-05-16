@@ -24,8 +24,8 @@
     <div class="main banner">
       <div class="banner-content">
         <h1>Jill Augustus</h1>
-        <h2>Inspiring Wellness | Aspiring Developer</h2>
-        <h2>Since 2010 | Since 2018</h2>
+        <h2 class="wellness">Inspiring Wellness  | </h2><h2 class="line-before">Aspiring Developer</h2>
+        <h2 class="dates" style="margin-right:18px">Since 2010 | Since 2018</h2>
       </div>
 
       <!--Nav Menu -->

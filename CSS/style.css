@@ -54,7 +54,12 @@ ul li {
 }
 
 
-
+.dates {
+  display: none;
+}
+.wellness {
+  display: none;
+}
 
 .introduction {
   min-height: 600px;
@@ -656,6 +661,33 @@ height: auto;
  .my-story p {
   margin: 0 0 300px 0;
 }
+
+@media only screen and (min-width: 450px) {
+ .wellness, .line-before {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+ 
+
+  .dates {
+    display: block;
+  }
+
+  /* .line-before::before {
+    content: " ";
+    background: #3e5874;
+    width: 2px;
+    height: 1.5em;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    z-index: 4;
+    margin-right: 1em;
+  }
+   */
+  
+}
 @media only screen and (min-width: 550px) {
   /* Get in Touch Section */
   .contact.grid.banner {
@@ -777,7 +809,8 @@ height: auto;
 }
 .hover-nav ul {
   padding: 10px;
-}
+  }
+
 /* Medium screens */
 @media only screen and (min-width: 726px){
   /* Nav section medium-large screens */
