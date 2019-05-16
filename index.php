@@ -89,7 +89,7 @@
               <h3>Codemaster Institute, Perth</h3>
               <h3>March-June 2019</h3>
             </div>
-            <p>A 12-week full-time intensive course covering front and backend topics including:
+            <p>A 12-week full-time intensive course covering front and backend topics including: </p>
               <ul class="bullet-list">
                 <li>HTML/CSS</li>
                 <li>Sass</li>
@@ -104,7 +104,6 @@
                 <li>Node</li>
                 <li>Team Project</li>
               </ul>
-            </p>
           </div>
         </div>
         <div class="timeline-item">
@@ -119,7 +118,6 @@
               <h3>LA Fit Studio, Perth</h3>
               <h3>August 2015-October 2018</h3>
             </div>
-            <p>
               <ul class="bullet-list">
                 <li>Oversee two boutique fitness studios</li>
                 <li>Lead on the ground information and refresher sessions for instructors</li>
@@ -129,10 +127,8 @@
                 <li>Repair and maintenance of all equipment</li>
                 <li>Control outstanding balances on all client’s accounts</li>
               </ul>
-            </p>
           </div>
         </div>
-
         <div class="timeline-item">
           <div class="timeline_img_icon">
             <div class="timeline-img">
@@ -145,7 +141,7 @@
               <h3>Codecademy, online</h3>
               <h3>July 2018</h3>
             </div>
-            <p>A 10-week online curriculum of web development fundamentals including:
+            <p>A 10-week online curriculum of web development fundamentals including:</p>
               <ul class="bullet-list">
                 <li>HTML</li>
                 <li>CSS</li>
@@ -154,7 +150,6 @@
                 <li>CSS Transitions</li>
                 <li>Github</li>
               </ul>
-            </p>
           </div>
         </div>
 
@@ -170,15 +165,12 @@
               <h3>Sofar Sounds, Perth</h3>
               <h3>Dec 2015-March 2016</h3>
             </div>
-            <p>
               <ul class="bullet-list">
                 <li>Organise monthly concerts to highlight local musicians.</li>
                 <li>Lead team of three to find artists, hosts, photographers, and sponsors.</li>
                 <li>Use a ticketing platform to allocate tickets. Our biggest concert was 120 people on someone's back
                   patio!</li>
               </ul>
-
-            </p>
           </div>
         </div>
         <div class="timeline-item">
@@ -193,7 +185,6 @@
               <h3>fitmob inc, San Francisco</h3>
               <h3>August 2015-October 2018</h3>
             </div>
-            <p>
               <ul class="bullet-list">
                 <li>Demonstrate a proactive approach to solve customer related concerns involving payments and technical
                   issues </li>
@@ -204,7 +195,6 @@
                 <li>Remain energetic, excited and flexible about working in a high growth and fast-paced start-up</li>
                 <li>Assist with onboarding new customers, and resolve concerns over the phone, email, and live chat</li>
               </ul>
-            </p>
           </div>
         </div>
 
