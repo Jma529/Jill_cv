@@ -663,16 +663,6 @@ height: auto;
 }
 
 @media only screen and (min-width: 450px) {
- .wellness, .line-before {
-    display: inline-block;
-    margin-right: 10px;
-  }
-
- 
-
-  .dates {
-    display: block;
-  }
 
   /* .line-before::before {
     content: " ";
@@ -722,6 +712,17 @@ height: auto;
 .skills h1 {
   margin: 20px;
 }
+.wellness, .line-before {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+
+.dates {
+  display: block;
+}
+
 }
 
   @media only screen and (min-width: 650px){

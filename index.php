@@ -24,7 +24,8 @@
     <div class="main banner">
       <div class="banner-content">
         <h1>Jill Augustus</h1>
-        <h2 class="wellness">Inspiring Wellness  | </h2><h2 class="line-before">Aspiring Developer</h2>
+        <h2 class="wellness">Inspiring Wellness | </h2>
+        <h2 class="line-before">Aspiring Developer</h2>
         <h2 class="dates" style="margin-right:18px">Since 2010 | Since 2018</h2>
       </div>
 
@@ -140,7 +141,6 @@
           </div>
           <div class="timeline-content">
             <div class="js--fadeInLeft">
-              <!-- <div class="timeline-img-header sf"> -->
               <h2>Build Websites from Scratch credential</h2>
               <h3>Codecademy, online</h3>
               <h3>July 2018</h3>
@@ -166,7 +166,6 @@
           </div>
           <div class="timeline-content">
             <div class="js--fadeInRight">
-              <!-- <div class="timeline-img-header sanclemente"> -->
               <h2>City Lead(Volunteer)</h2>
               <h3>Sofar Sounds, Perth</h3>
               <h3>Dec 2015-March 2016</h3>
@@ -244,169 +243,166 @@
 
     </section>
 
-  <!--Skills & Hobbies-->
+    <!--Skills & Hobbies-->
 
-  <div class="skills grid banner" id="hobbies">
-    <div class="skill-box">
+    <div class="skills grid banner" id="hobbies">
+      <div class="skill-box">
 
-      <div class="boxes animation">
-        <h1>Skills</h1>
-        <div class="box large">
-          <span>HTML</span>
-        </div>
-        <div class="box large">
-          <span>CSS</span>
-        </div>
-        <div class="box large">
-          <span>Bootstrap</span>
-        </div>
-        <div class="box medium">
-          <span>Github</span>
+        <div class="boxes animation">
+          <h1>Skills</h1>
+          <div class="box large">
+            <span>HTML</span>
+          </div>
+          <div class="box large">
+            <span>CSS</span>
+          </div>
+          <div class="box large">
+            <span>Bootstrap</span>
+          </div>
+          <div class="box medium">
+            <span>Github</span>
 
+          </div>
+          <div class="box medium">
+            <span>Sass</span>
+          </div>
+          <div class="box medium">
+            <span>Jquery</span>
+          </div>
+          <div class="box small">
+            <span>JavaScript</span>
+          </div>
+          <div class="box small">
+            <span>PHP</span>
+          </div>
+          <div class="line">
+            <span>Without Coffee</span>
+            <hr style="height:2px; color:white; width:300px; margin-left:10px;">
+            <span>With Coffee</span>
+          </div>
         </div>
-        <div class="box medium">
-          <span>Sass</span>
-        </div>
-        <div class="box medium">
-          <span>Jquery</span>
-        </div>
-        <div class="box small">
-          <span>JavaScript</span>
-        </div>
-        <div class="box small">
-          <span>PHP</span>
-        </div>
-        <div class="line">
-          <span>Without Coffee</span>
-          <hr style="height:2px; color:white; width:300px; margin-left:10px;">
-          <span>With Coffee</span>
-        </div>
-      </div>
-      <!--<div class="boxes animation">
+        <!--<div class="boxes animation">
         <div class="box extra-large arrow-right">
           <span>Capacity to Learn >>>>>>>>>></span>
         </div>
         </div> -->
-    </div>
-    <div class="hobbies">
-      <!-- <div class="boxes"> -->
-      <h1>Hobbies</h1>
-      <ul>
-        <li>Yoga</li>
-        <li>Running</li>
-        <li>Surfing</li>
-        <li>Camping</li>
-        <li>Concerts</li>
-        <li>Puzzles</li>
-        <li>Travelling</li>
-        <li>Dancing</li>
-      </ul>
-    </div>
-    <!-- </div> -->
-  </div>
-  <div class="work col-12" id="projects">
-    <h1>Projects</h1>
-    <h2>Completed</h2>
-    <div class="thumbnails grid">
-      <div class="thumbnail">
-        <a href="https://www.bentonitebeauty.com.au/"><img class="thumbnail-img"
-            src="CSS/images/bentonitebeauty.jpeg"></a>
-        <div class="dropdown-text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-            fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
-        </div>
       </div>
-      <div class="thumbnail">
-        <a href="https://github.com/CodemasterInstitute/Eventure/commits/Jill"><img class="thumbnail-img"
-            src="CSS/images/eventure.jpeg"></a>
-        <div class="dropdown-text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-            fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
-        </div>
+      <div class="hobbies">
+        <h1>Hobbies</h1>
+        <ul>
+          <li>Yoga</li>
+          <li>Running</li>
+          <li>Surfing</li>
+          <li>Camping</li>
+          <li>Concerts</li>
+          <li>Puzzles</li>
+          <li>Travelling</li>
+          <li>Dancing</li>
+        </ul>
       </div>
     </div>
-    <div class="thumbnails grid">
-      <div class="thumbnail">
-        <img class="thumbnail-img" src="CSS/images/music-gypsy.png">
-        <div class="dropdown-text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-            fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
-        </div>
-      </div>
-      <div class="thumbnail">
-        <a href="https://wishuponalash.com/"><img class="thumbnail-img" src="CSS/images/wishuponalash.jpeg"></a>
-        <div class="dropdown-text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-            fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
-        </div>
-      </div>
-    </div>
-    <div class="in-progress">
-      <h2>In Progress</h2>
+
+    <!--Projects-->
+
+    <div class="work col-12" id="projects">
+      <h1>Projects</h1>
+      <h2>Completed</h2>
       <div class="thumbnails grid">
         <div class="thumbnail">
-          <img class="thumbnail-img" src="CSS/images/shortstay.jpeg">
+          <a href="https://www.bentonitebeauty.com.au/"><img class="thumbnail-img"
+              src="CSS/images/bentonitebeauty.jpeg"></a>
           <div class="dropdown-text">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
               fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
           </div>
         </div>
         <div class="thumbnail">
-          <img class="thumbnail-img" src="CSS/images/soulmarket.jpeg">
+          <a href="https://github.com/CodemasterInstitute/Eventure/commits/Jill"><img class="thumbnail-img"
+              src="CSS/images/eventure.jpeg"></a>
           <div class="dropdown-text">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
               fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
           </div>
         </div>
+      </div>
+      <div class="thumbnails grid">
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="CSS/images/music-gypsy.png">
+          <div class="dropdown-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+              fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
+          </div>
+        </div>
+        <div class="thumbnail">
+          <a href="https://wishuponalash.com/"><img class="thumbnail-img" src="CSS/images/wishuponalash.jpeg"></a>
+          <div class="dropdown-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+              fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
+          </div>
+        </div>
+      </div>
+      <div class="in-progress">
+        <h2>In Progress</h2>
+        <div class="thumbnails grid">
+          <div class="thumbnail">
+            <img class="thumbnail-img" src="CSS/images/shortstay.jpeg">
+            <div class="dropdown-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
+            </div>
+          </div>
+          <div class="thumbnail">
+            <img class="thumbnail-img" src="CSS/images/soulmarket.jpeg">
+            <div class="dropdown-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                fuga quos facere sequi voluptatem, repudiandae itaque recusandae quasi error nisi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!--Contact section-->
+    <div class="contact grid banner" id="contactme">
+      <div class="profile">
+        <img class="profile-pic" src="CSS/images/Jillresume.jpeg">
+      </div>
+      <div class="get-in-touch">
+        <h1>Let's have a coffee</h1>
 
+        <ul class="contact-details">
+          <li>
+            <i class="fas fa-globe-asia"></i><span>Perth, Western Australia</span>
+
+          </li>
+          <li>
+            <a href="mailto:Jma529@gmail.com"><i class="far fa-envelope"></i></a>
+            <span>Jma529@gmail.com</span>
+
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <span>0404 841 480</span>
+
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jill-augustus-a930bb10/"><i class="fab fa-linkedin"></i></a>
+            <span>Jill Augustus</span>
+
+          </li>
+          <li>
+            <a href="https://github.com/Jma529/"><i class="fab fa-github"></i></a>
+            <span>Github</span>
+          </li>
+        </ul>
+        <br>
+        <p><em>Eligible to work in Australia and U.S.</em></p>
 
       </div>
 
-    </div>
-  </div>
-
-  <div class="contact grid banner" id="contactme">
-    <div class="profile">
-      <img class="profile-pic" src="CSS/images/Jillresume.jpeg">
-    </div>
-    <div class="get-in-touch">
-      <h1>Let's have a coffee</h1>
-
-      <ul class="contact-details">
-        <li>
-          <i class="fas fa-globe-asia"></i><span>Perth, Western Australia</span>
-
-        </li>
-        <li>
-          <a href="mailto:Jma529@gmail.com"><i class="far fa-envelope"></i></a>
-          <span>Jma529@gmail.com</span>
-
-        </li>
-        <li>
-          <i class="fas fa-phone"></i>
-          <span>0404 841 480</span>
-
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/jill-augustus-a930bb10/"><i class="fab fa-linkedin"></i></a>
-          <span>Jill Augustus</span>
-
-        </li>
-        <li>
-          <a href="https://github.com/Jma529/"><i class="fab fa-github"></i></a>
-          <span>Github</span>
-        </li>
-      </ul>
-      <br>
-      <p><em>Eligible to work in Australia and U.S.</em></p>
 
     </div>
 
-
   </div>
-
-  </div>
-</div>
 
 
 
