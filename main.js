@@ -58,7 +58,7 @@ $(document).ready(function () {
     $('.hover-nav').slideToggle("slow");
   });
 
-  /* Change menu color on scroll */
+  /* Change menu color on scroll  */
   let scroll1 = $('#hobbies').offset().top;
   let scroll2 = $('#projects').offset().top;
   $(window).scroll(function () {
@@ -73,3 +73,12 @@ $(document).ready(function () {
 
   });
 });
+
+// Overlay Effect //
+function on() {
+  document.querySelector(".overlay").style.display = "block";
+}
+
+function off() {
+  document.querySelector(".overlay").style.display = "none";
+}
