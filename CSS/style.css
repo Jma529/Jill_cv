@@ -133,7 +133,7 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
   z-index: 10;
   position: fixed;
   background-color:#b1e4e2;
-  left: 60%;
+  left: 50%;
   font-family: 'Julius Sans One';
 
 }
@@ -157,7 +157,7 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
   background-image: url("images/treesjill2.jpeg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -168,7 +168,7 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
 
 .inspo-content h1 {
 text-align: center;
-padding-left: 10%;
+
 
 }
 
@@ -176,7 +176,9 @@ padding-left: 10%;
   font-family: 'playlistscript';
  
 }
-
+.my-story {
+  margin-top: 10px;
+}
 .my-story h2 {
   width: 50%;
   background-color: black;
@@ -609,10 +611,17 @@ ul.contact-details {
   }
   .inspiration {
     font-size: 1.5em;
+    height: 100vh;
   }
  
   .my-story, .inspo-content {
     width: 50%;
+  }
+  .inspo-content h1 {
+    padding-left: 10%;
+  }
+  .my-story {
+    margin-top: 0;
   }
   .my-story p {
     margin: 0 auto;
