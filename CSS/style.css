@@ -18,10 +18,24 @@ body {
           box-sizing: border-box;
   margin: 0 auto;
   font-family: 'Montserrat';
-  color: #fefefe;
+  color: #3e5874;
   
 }
 
+.container {
+ 
+  padding: 20px;
+  background-color: #fefefe;
+  border: 3px solid #3e5874;
+  width: 75%;
+}
+/* background settings for containers */
+.container-background {
+  position: relative;
+  background-image: url("images/bannerturquoise.png");
+  height: 95%;
+  padding-top: 20px;
+  }
 h1 {
   font-family: 'playlistscript';
 }
@@ -43,6 +57,10 @@ a {
 .grid {
   display: -ms-grid;
   display: grid;
+}
+
+.flex {
+  display: flex;
 }
 
 ul li {
@@ -105,6 +123,7 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
   justify-content: center;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .banner-content h1{
@@ -118,6 +137,8 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
   text-align: center;
   color: #3e5874;
 }
+
+
 /* Nav section */
     
 .nav {
@@ -164,6 +185,7 @@ i.fas.fa-graduation-cap, i.fas.fa-briefcase, i.fas.fa-hands-helping {
     font-size: 1em;
   font-family: 'playlistscript';
   text-align: center;
+  color: #fefefe;
 }
 
 .inspo-content h1 {
@@ -209,16 +231,15 @@ text-align: center;
 }
 
 /* Timeline*/
-.timeline {
+/* .timeline {
   position: relative;
   background-image: url("images/bannerturquoise.png");
-  background-position: center;
   height: 95%;
   padding-top: 20px;
   
-}
+} */
 
-.timeline::before {
+#experience::before {
   content: '';
   background: #3e5874;
   width: 5px;
@@ -305,16 +326,14 @@ i.fas.fa-bars {
   color: #3e5874;
 }
 
-.container-timeline {
+#timeline {
   position: relative;
-  width: 75%;
   left: 12%;
-  background-color: #fefefe;
-  border: 3px solid #3e5874;
+ 
 
 }
 
-.timeline h1, .work h1 {
+.container-background h1, .work h1 {
   font-size: 3em;
   font-family: 'playlistscript';
   text-align: center;
@@ -648,6 +667,7 @@ ul.contact-details {
 
 @media only screen and (min-width: 726px){
   /* Main Banner */
+  
   .banner-content h1 {
     font-size: 7em;
   }
@@ -670,13 +690,13 @@ ul.contact-details {
 
 @media screen and (max-width: 768px) {
   /* Timeline medium */
-  .timeline::before {
+  #experience::before {
     left: 50px;
   }
-  .timeline .timeline-img {
+  #experience .timeline-img {
     left: 50px;
   }
-  .timeline .timeline-content {
+  #experience .timeline-content {
     max-width: 100%;
     width: auto;
     text-align: left;
@@ -696,6 +716,7 @@ ul.contact-details {
   overflow:visible;
   margin-top: 20px;
 }
+/* Contact form */
 
 }
 
@@ -715,4 +736,42 @@ ul.contact-details {
     margin: 0;
   }
 }
+
+/* Contact Form */
+
+#contact-form {
+  width: 75%;
+  margin:0 auto;
+  border-radius: 5px;
+  
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #3e5874;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  opacity: .5;
+}
+
+
+
 
