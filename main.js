@@ -1,3 +1,4 @@
+/* Resume page animations */
 $(function () {
   window.sr = ScrollReveal();
 
@@ -53,26 +54,76 @@ $(function () {
 
 
 $(document).ready(function () {
+ 
+ 
   /* Toggle Nav Menu */
-  $('#show').click(function () {
-    $('.hover-nav').slideToggle("slow");
+  /* Hide hamburger icon and show menu on click */
+  $('#open-menu').click(function () {
+    $(this).hide();
+    $('.toggle-nav').width('100%');
+  });
+  /* On click of menu item, hide menu and show hamburger icon */
+$('.menu-item').click(function (){
+$('.toggle-nav').width('0');
+$('#open-menu').show();
+});
+/* On click of close icon, hide menu and show hamburger icon */
+  $('.close').click(function () {
+    $('.toggle-nav').width('0');
+    $('#open-menu').show();
   });
 
   /* Change menu color on scroll  */
-  let scroll1 = $('#hobbies').offset().top;
-  let scroll2 = $('#projects').offset().top;
+//   let scroll1 = $('#about').offset().top;
+//   let scroll2 = $('#experience').offset().top;
+//   let scroll3 = $('#hobbies').offset().top;
+//   let scroll4 = $('#projects').offset().top;
+  
+//   $(window).scroll(function () {
+//     let scrollPos = $(document).scrollTop();
+//     if (scrollPos >= scroll1 && scrollPos < scroll2) {
+//       $('#open-menu').css('color', 'white');
+//     }
+//     else if (scrollPos >= scroll3 && scrollPos < scroll4) {
+//       $('#open-menu').css('color', 'white');
+//     } else if (scrollPos >= scroll4) {
+//       $('#open-menu').css('color', '#3e5874');
+//     } else {
+//       $('#open-menu').css('color', '#3e5874');
+//     }
+
+//   });
+// });
+
+  /* Change menu color on scroll  */
+  let scroll1 = $('#about').offset().top;
+  let scroll2 = $('#experience').offset().top;
+  let scroll3 = $('#hobbies').offset().top;
+  let scroll4 = $('#projects').offset().top;
+
   $(window).scroll(function () {
-    let scrollPos = $(document).scrollTop();
-    if (scrollPos >= scroll1 && scrollPos < scroll2) {
-      $('#show').css('color', 'white');
-    } else if (scrollPos >= scroll2) {
-      $('#show').css('color', '#3e5874');
-    } else {
-      $('#show').css('color', '#3e5874');
+    let windowPos = $(window).scrollTop();
+    if (windowPos >= scroll1 && windowPos < scroll2){
+      $('#open-menu').css('color', 'white');
+    } else if (windowPos >= scroll3 && windowPos < scroll4){
+      $('#open-menu').css('color', 'white');
+     } else {
+      $('#open-menu').css('color', '#3e5874');
     }
 
   });
+
+  if ($window.width() < 1000){
+    let windowPos = $(window).height();
+    if (windowPos = scroll1 && windowPos < scroll2){
+      $('#open-menu').css('color', 'white')
+  
+  
+    }
+
+  }
 });
+
 
 // Overlay Effect //
 function on() {

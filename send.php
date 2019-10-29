@@ -21,7 +21,8 @@
 <h1>Thanks for your message! I will get back to you soon!</h1>
 
 <?php
-	
+	require 'PHPMailer-master/src/PHPMailer.php';
+
 	$userName 		= $_POST['myName'];
 	$userEmail	 	= $_POST['myEmail'];
 	$userMessage 		= $_POST['myMessage'];
@@ -32,4 +33,11 @@
 	$body .= "\r\n Email: " . $userEmail;
 	$body .= "\r\n Message: " . $userMessage;
 	mail($to, $subject, $body);
+
+if(!$mail->send()) {
+    echo 'Message could not be sent.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
+} else {
+    echo 'Thanks for your message! I will get back to you soon!';
+}
 ?>
